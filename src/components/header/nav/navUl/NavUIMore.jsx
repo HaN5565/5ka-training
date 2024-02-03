@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../../../../index.css'
 import s from '../Nav.module.css'
 
-const NavUIMore = ({ more }) => {
+const NavUIMore = () => {
     return (
-        <ul className={more ? [s.moreActive] : [s.moreDisabled]} >
+        <ul className={s.moreActive} >
             <li><a href="#">Сервис пакет</a></li>
             <li><a href="#">В вашу пользу</a></li>
             <li><a href="#">Новости пятерочки</a></li>
