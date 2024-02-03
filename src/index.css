@@ -1,0 +1,49 @@
+/* Импорты */
+
+@import url(https://db.onlinewebfonts.com/c/069d6da94e3ce0156f8eb9de5f61d079?family=F5ka+Sans+Design+Regular);
+
+@font-face {
+  font-family: sans design;
+  src: url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.eot");
+  src: url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.svg#F5ka Sans Design Regular")format("svg");
+}
+
+/* Импорты */
+
+/* Обнуление */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Обнуление */
+
+/* Общие стили */
+
+.header-container {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+html,
+body {
+  font-family: sans design;
+  background: rgb(245, 245, 245);
+}
+
+/* Общие стили */
