@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../../../../index.css'
-import s from '../Nav.module.css'
+import s from './NavUI.module.css'
 import NavUIMore from './NavUIMore';
 import { motion, AnimatePresence } from 'framer-motion'
 
@@ -10,19 +10,19 @@ const NavUl = () => {
     return (
         <>
             <ul className={s.NavUl}>
-                <li className={s.NavUiItem}>
+                <li className={s.item}>
                     <img className={s.img} src="./img/stock.png" alt="stock" />
                     <a href="#">Акции</a></li>
-                <li className={s.NavUiItem}>
+                <li className={s.item}>
                     <img className={s.img} src="./img/star.png" alt="star" />
                     <a href="#">Рейтинг</a></li>
-                <li className={s.NavUiItem}>
+                <li className={s.item}>
                     <img className={s.img} src="./img/union.png" alt="stock" />
                     <a href="#">Магазины</a></li>
-                <li className={s.NavUiItem}>
+                <li className={s.item}>
                     <img className={s.img} src="./img/exclude.png" alt="stock" />
                     <a href="#">Выручай-карта</a></li>
-                <li className={isVisible ? [s.NavUiItemActive] : [s.NavUiItem]}>
+                <li className={isVisible ? [s.itemActive] : [s.item]}>
                     <img className={s.img} src="./img/more.png" alt="stock" />
                     <a onClick={handleVisibility} href="#">Еще</a>
                 </li>

@@ -1,0 +1,74 @@
+.NavUl {
+  display: flex;
+  gap: 30px;
+  margin-left: 90px;
+}
+
+.item {
+  display: flex;
+  gap: 10px;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+
+.item a {
+  color: rgb(48, 46, 51);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  transition: all 0.3s;
+}
+
+.item a:hover {
+  opacity: 0.3;
+}
+
+/* Выпдающие меню */
+
+.itemActive a {
+  color: rgb(240, 23, 23);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.itemActive {
+  display: flex;
+  gap: 10px;
+  border-radius: 25px;
+}
+
+.moreActive {
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  position: absolute;
+  left: 56%;
+  top: 11%;
+  padding: 25px 25px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 57px -53px 10px -47px rgba(34, 60, 80, 0.06);
+}
+
+.moreActive li a {
+  color: rgb(48, 46, 51);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  transition: all 0.2s;
+}
+
+.moreActive li a:hover {
+  color: rgb(240, 23, 23);
+}
+
+/* Выпдающие меню */

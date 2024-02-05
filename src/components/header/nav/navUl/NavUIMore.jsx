@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../../index.css'
-import s from '../Nav.module.css'
+import s from './NavUI.module.css'
 
 const NavUIMore = () => {
     return (

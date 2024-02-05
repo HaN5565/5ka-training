@@ -1,0 +1,41 @@
+.NavSearch {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.magnifier {
+  cursor: pointer;
+}
+
+.magnifier path {
+  transition: all 0.3s;
+}
+
+.magnifier:hover path {
+  fill: black;
+  opacity: 0.7;
+}
+
+.profile {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: rgb(235, 35, 22);
+  cursor: pointer;
+}
+
+.profileSvg {
+  margin-top: 20%;
+}
+
+.profileSvg path {
+  transition: all 0.3s;
+}
+
+.profile:hover .profileSvg path {
+  opacity: 0.3;
+}

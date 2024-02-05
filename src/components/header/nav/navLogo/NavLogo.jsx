@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../../index.css'
-import s from './Nav.module.css'
+import '../../../../index.css'
+import s from './NavLogo.module.css'
 
 const NavLogo = () => {
     return (
