@@ -1,0 +1,40 @@
+.search {
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  padding: 17px 35px;
+  background-color: #ee2e24;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search:hover {
+  opacity: 0.8;
+}
+
+.close {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  border: none;
+  background-color: #f2f3f5;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.svg {
+  width: 25px;
+  height: 25px;
+  margin-top: 7px;
+  opacity: 0.7;
+}

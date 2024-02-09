@@ -3,12 +3,12 @@ import '../../../../../index.css'
 import s from './NavSearchMore.module.css'
 import NavSearchMoreTop from './navSearchMoreTop/NavSearchMoreTop';
 
-function NavSearchMore() {
+function NavSearchMore(props) {
   return (
     <div className={s.overlay}>
       <div className={s.NavSearchMore}>
         <div className={s.wrapper}>
-          <NavSearchMoreTop />
+          <NavSearchMoreTop handleVisibility={props.handleVisibility} />
         </div>
       </div>
     </div>
