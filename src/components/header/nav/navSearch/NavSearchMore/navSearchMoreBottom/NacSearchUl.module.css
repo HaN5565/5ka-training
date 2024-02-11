@@ -1,0 +1,18 @@
+.NavSearchUl {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px; 
+}
+
+.disabled {
+  cursor: pointer;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.active {
+  cursor: pointer;
+  font-size: 15px;
+  opacity: 1;
+  border-bottom: 3px solid black;
+}
