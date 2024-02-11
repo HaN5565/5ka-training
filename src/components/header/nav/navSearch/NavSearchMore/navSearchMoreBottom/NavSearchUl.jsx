@@ -3,17 +3,25 @@ import '../../../../../../index.css'
 import s from './NacSearchUl.module.css'
 
 const NavSearchUl = () => {
-  const [active, setActive] = useState(false)
-  const handleClick = () => {
-    setActive(!active)
-  }
   return (
-    <ul className={s.NavSearchUl}>
-      <li className={active ? [s.active] : [s.disabled]} onClick={handleClick}>Товары по акциям</li>
-      <li className={active ? [s.active] : [s.disabled]} onClick={handleClick}>Рейтинг товаров</li>
-      <li className={active ? [s.active] : [s.disabled]} onClick={handleClick}>Магазины</li>
-      <li className={active ? [s.active] : [s.disabled]} onClick={handleClick}>Новости</li>
-    </ul>
+    <div className={s.NavSearchUl}>
+      <div className={s.radioGroup}>
+        <input type="radio" id='radio-1' name='radio' value='1' checked />
+        <label htmlFor="radio-1">Товары по акциям</label>
+      </div>
+      <div className={s.radioGroup}>
+        <input type="radio" id='radio-2' name='radio' value='2' checked />
+        <label htmlFor="radio-2">Рейтинг товаров</label>
+      </div>
+      <div className={s.radioGroup}>
+        <input type="radio" id='radio-3' name='radio' value='3' checked />
+        <label htmlFor="radio-3">Магазины</label>
+      </div>
+      <div className={s.radioGroup}>
+        <input type="radio" id='radio-4' name='radio' value='4' checked />
+        <label htmlFor="radio-4">Новости</label>
+      </div>
+    </div>
   );
 };
 

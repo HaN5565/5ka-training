@@ -1,18 +1,30 @@
 .NavSearchUl {
   display: flex;
   gap: 15px;
-  margin-top: 50px; 
+  margin-top: 50px;
 }
 
-.disabled {
-  cursor: pointer;
-  font-size: 15px;
+.radioGroup {
+  display: flex;
+  float: left;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.radioGroup input[type=radio] {
+  display: none;
+}
+
+.radioGroup label {
+  display: flex;
   opacity: 0.5;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s;
 }
 
-.active {
-  cursor: pointer;
-  font-size: 15px;
+.radioGroup input[type=radio]:checked+label {
+  border-bottom: 2px solid black;
   opacity: 1;
-  border-bottom: 3px solid black;
 }

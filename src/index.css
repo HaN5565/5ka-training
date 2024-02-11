@@ -1,16 +1,6 @@
 /* Импорты */
 
-@import url(https://db.onlinewebfonts.com/c/069d6da94e3ce0156f8eb9de5f61d079?family=F5ka+Sans+Design+Regular);
-
-@font-face {
-  font-family: sans design;
-  src: url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.eot");
-  src: url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/069d6da94e3ce0156f8eb9de5f61d079.svg#F5ka Sans Design Regular")format("svg");
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
 
 /* Импорты */
 
@@ -46,7 +36,7 @@ a {
 
 html,
 body {
-  font-family: sans design;
+  font-family: 'Montserrat', sans-serif;
   background: rgb(245, 245, 245);
 }
 

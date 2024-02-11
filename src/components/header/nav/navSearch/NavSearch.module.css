@@ -6,6 +6,7 @@
 }
 
 .magnifier {
+  position: relative;
   cursor: pointer;
 }
 
@@ -19,6 +20,7 @@
 }
 
 .profile {
+  position: relative;
   width: 48px;
   height: 48px;
   display: flex;
