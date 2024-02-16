@@ -11,20 +11,34 @@ const NavUl = () => {
         <>
             <ul className={s.NavUl}>
                 <li className={s.item}>
-                    <img className={s.img} src="./img/stock.png" alt="stock" />
-                    <a href="#">Акции</a></li>
+                    <a href="#">
+                        <img className={s.img} src="./img/stock.png" alt="stock" />
+                        <span>Акции</span>
+                    </a>
+                </li>
                 <li className={s.item}>
-                    <img className={s.img} src="./img/star.png" alt="star" />
-                    <a href="#">Рейтинг</a></li>
+                    <a href="#">
+                        <img className={s.img} src="./img/star.png" alt="star" />
+                        <span>Рейтинг</span>
+                    </a>
+                </li>
                 <li className={s.item}>
-                    <img className={s.img} src="./img/union.png" alt="stock" />
-                    <a href="#">Магазины</a></li>
+                    <a href="#">
+                        <img className={s.img} src="./img/union.png" alt="stock" />
+                        <span>Магазины</span>
+                    </a>
+                </li>
                 <li className={s.item}>
-                    <img className={s.img} src="./img/exclude.png" alt="stock" />
-                    <a href="#">Выручай-карта</a></li>
+                    <a href="#">
+                        <img className={s.img} src="./img/exclude.png" alt="stock" />
+                        <span>Выручай-карта</span>
+                    </a>
+                </li>
                 <li className={isVisible ? [s.itemActive] : [s.item]}>
-                    <img className={s.img} src="./img/more.png" alt="stock" />
-                    <a onClick={handleVisibility} href="#">Еще</a>
+                    <a onClick={handleVisibility} href="#">
+                        <img className={s.img} src="./img/more.png" alt="stock" />
+                        <span>Еще</span>
+                    </a>
                 </li>
             </ul>
             <AnimatePresence>
