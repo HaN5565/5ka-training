@@ -13,15 +13,12 @@
 }
 
 .swiper-pagination {
+  bottom: 90px;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 10px;
   z-index: 1;
   position: relative;
-  width: 210px;
-  overflow: hidden;
-  bottom: 1rem;
 }
 
 .swiper-pagination .swiper-pagination-bullet {

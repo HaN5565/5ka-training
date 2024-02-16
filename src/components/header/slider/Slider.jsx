@@ -8,15 +8,19 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 const Slider = () => {
   return (
     <Swiper
-      modules={[Pagination, Navigation, Autoplay]}
-      pagination={{ el: '.swiper-pagination', clickable: true, }}
-      autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+      modules={[Pagination, Navigation,]}
+      pagination={{
+        el: '.swiper-pagination',
+        clickable: true,
+      }}
+      loop={true}
+      // autoplay={{
+      //   delay: 5000,
+      //   pauseOnMouseEnter: true,
+      //   disableOnInteraction: false,
+      // }}
       grabCursor={true}
       centeredSlides={true}
-      loop={true}
       slidesPerView={'auto'}
       className='swiper-container'
     >
@@ -26,10 +30,7 @@ const Slider = () => {
       <SwiperSlide>4</SwiperSlide>
       <SwiperSlide>5</SwiperSlide>
       <SwiperSlide>6</SwiperSlide>
-      <SwiperSlide>7</SwiperSlide>
-      <div className="slider-controler">
-        <div className="swiper-pagination"></div>
-      </div>
+      <div className="swiper-pagination"></div>
     </Swiper>
   );
 };
