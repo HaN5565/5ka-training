@@ -3,15 +3,17 @@ import '../../../index.css'
 import './Slider.css'
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
+import SliderNavigation from './SliderNavigation';
+import CotoMem from './slide/CotoMem';
 
 const Slider = () => {
   return (
     <Swiper
-      modules={[Pagination, Navigation,]}
-      pagination={{
-        el: '.swiper-pagination',
-        clickable: true,
+      modules={[Navigation,]}
+      navigation={{
+        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next'
       }}
       loop={true}
       // autoplay={{
@@ -19,7 +21,6 @@ const Slider = () => {
       //   pauseOnMouseEnter: true,
       //   disableOnInteraction: false,
       // }}
-      grabCursor={true}
       centeredSlides={true}
       slidesPerView={'auto'}
       className='swiper-container'
@@ -29,8 +30,8 @@ const Slider = () => {
       <SwiperSlide>3</SwiperSlide>
       <SwiperSlide>4</SwiperSlide>
       <SwiperSlide>5</SwiperSlide>
-      <SwiperSlide>6</SwiperSlide>
-      <div className="swiper-pagination"></div>
+      <SwiperSlide><CotoMem /></SwiperSlide>
+      <SliderNavigation />
     </Swiper>
   );
 };

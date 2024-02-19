@@ -1,0 +1,75 @@
+.text {
+  position: relative;
+  z-index: 2;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text span {
+  padding: 10px 15px 10px 15px;
+  border-radius: 30px;
+  background: rgb(253, 220, 166);
+}
+
+.textTop {
+  max-width: 650px;
+  width: 100%;
+}
+
+.textBottom {
+  max-width: 400px;
+  width: 100%;
+}
+
+.main {
+  position: absolute;
+  left: 28%;
+  bottom: 12%;
+}
+
+.center {
+  background-image: url(../../../../../public/img/cotoMem.png);
+  background-position: 89% 10%;
+  width: 500px;
+  height: 500px;
+  border-radius: 160px;
+  transform: rotate(-12.00deg);
+}
+
+.left {
+  position: absolute;
+  bottom: 25%;
+  left: -30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background: rgb(255, 173, 38);
+  transform: rotate(10.00deg);
+}
+
+.leftTop {
+  padding: 25px 0px 10px 15px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+.leftBottom {
+  padding: 0px 0px 10px 15px;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: -1%;
+}
+
+.leftBottom span {
+  padding: 0px 15px 0px 0px;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 30px;
+  letter-spacing: -1%;
+}

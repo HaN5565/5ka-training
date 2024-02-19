@@ -1,42 +1,49 @@
 .swiper-container {
   margin-top: 30px;
-  height: 500px;
+  height: 628px;
   padding: 2rem 0;
   position: relative;
   border: 1px solid black;
 }
 
-.slider-controler {
-  position: relative;
-  bottom: 90px;
-  justify-content: center;
-}
-
-.swiper-pagination {
-  bottom: 90px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.swiper-navigation {
   z-index: 1;
   position: relative;
+  bottom: 90%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  float: right;
 }
 
-.swiper-pagination .swiper-pagination-bullet {
-  cursor: pointer;
+.swiper-arrow {
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-  min-width: 30px;
-  height: 30px;
-  opacity: 0.5;
-  background-image: url(../../../../public/img/slider-eclipse.png);
-  background-position: center;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
-.swiper-pagination .swiper-pagination-bullet-active {
-  cursor: pointer;
+.swiper-button-prev {
+  width: 43px;
+  height: 43px;
+  box-shadow: 0px 3.55px 44.31px 0px rgba(0, 0, 0, 0.09);
+  opacity: 0.3;
+}
+
+.swiper-button-prev:hover {
+  transform: scale(1.05);
   opacity: 1;
-  border-radius: 50%;
-  min-width: 45px;
-  height: 45px;
-  background-position: center;
-  background-image: url(../../../../public/img/slider-eclipse.png);
+}
+
+.swiper-button-next {
+  width: 57px;
+  height: 57px;
+  box-shadow: 0px 3.55px 44.31px 0px rgba(0, 0, 0, 0.09);
+}
+
+.swiper-button-next:hover {
+  transform: scale(1.05);
 }
