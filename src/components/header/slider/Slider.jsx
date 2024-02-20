@@ -4,14 +4,14 @@ import './Slider.css'
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay, EffectFade } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 import SliderNavigation from './SliderNavigation';
 import CotoMem from './slide/CotoMem';
 
 const Slider = () => {
   return (
     <Swiper
-      modules={[Navigation, Autoplay, EffectFade]}
+      modules={[Navigation, Autoplay,]}
       navigation={{
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next'
@@ -21,7 +21,6 @@ const Slider = () => {
         pauseOnMouseEnter: true,
         disableOnInteraction: false,
       }}
-      effect={'fade'}
       loop={true}
       centeredSlides={true}
       slidesPerView={'auto'}
