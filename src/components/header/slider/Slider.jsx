@@ -2,34 +2,36 @@ import React from 'react';
 import '../../../index.css'
 import './Slider.css'
 import 'swiper/css';
+import 'swiper/css/effect-fade';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from 'swiper/modules';
+import { Navigation, Autoplay, EffectFade } from 'swiper/modules';
 import SliderNavigation from './SliderNavigation';
 import CotoMem from './slide/CotoMem';
 
 const Slider = () => {
   return (
     <Swiper
-      modules={[Navigation,]}
+      modules={[Navigation, Autoplay, EffectFade]}
       navigation={{
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next'
       }}
+      autoplay={{
+        delay: 5000,
+        pauseOnMouseEnter: true,
+        disableOnInteraction: false,
+      }}
+      effect={'fade'}
       loop={true}
-      // autoplay={{
-      //   delay: 5000,
-      //   pauseOnMouseEnter: true,
-      //   disableOnInteraction: false,
-      // }}
       centeredSlides={true}
       slidesPerView={'auto'}
       className='swiper-container'
     >
-      <SwiperSlide>1</SwiperSlide>
-      <SwiperSlide>2</SwiperSlide>
-      <SwiperSlide>3</SwiperSlide>
-      <SwiperSlide>4</SwiperSlide>
-      <SwiperSlide>5</SwiperSlide>
+      <SwiperSlide><CotoMem /></SwiperSlide>
+      <SwiperSlide><CotoMem /></SwiperSlide>
+      <SwiperSlide><CotoMem /></SwiperSlide>
+      <SwiperSlide><CotoMem /></SwiperSlide>
+      <SwiperSlide><CotoMem /></SwiperSlide>
       <SwiperSlide><CotoMem /></SwiperSlide>
       <SliderNavigation />
     </Swiper>

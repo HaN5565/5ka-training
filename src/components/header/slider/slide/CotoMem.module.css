@@ -1,3 +1,7 @@
+.CotoMem {
+  margin-top: 10px;
+}
+
 .text {
   position: relative;
   z-index: 2;
@@ -29,15 +33,17 @@
   position: absolute;
   left: 28%;
   bottom: 12%;
+  transition: all 0.3s;
 }
 
 .center {
   background-image: url(../../../../../public/img/cotoMem.png);
-  background-position: 89% 10%;
+  background-position: 88.5% -5%;
   width: 500px;
   height: 500px;
   border-radius: 160px;
-  transform: rotate(-12.00deg);
+  transform: rotate(-10.00deg);
+  transition: all 0.3s;
 }
 
 .left {
@@ -49,6 +55,7 @@
   border-radius: 30px;
   background: rgb(255, 173, 38);
   transform: rotate(10.00deg);
+  transition: all 0.3s;
 }
 
 .leftTop {
@@ -73,3 +80,78 @@
   line-height: 30px;
   letter-spacing: -1%;
 }
+
+.right {
+  left: 90%;
+  bottom: 35%;
+  position: absolute;
+}
+
+.right1 {
+  z-index: 2;
+  position: relative;
+  bottom: -55px;
+  width: 160px;
+  height: 160px;
+  background: rgb(0, 0, 0);
+  background-image: url(../../../../../public/img/activia.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.right2 {
+  position: absolute;
+  bottom: -165px;
+  left: -50px;
+  width: 180px;
+  height: 120px;
+  background-image: url(../../../../../public/img/5ka.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  border-radius: 18px;
+  transform: rotate(-20.00deg);
+  transition: all 0.3s;
+}
+
+.right3 {
+  z-index: 3;
+  position: absolute;
+  bottom: -160px;
+  left: 100px;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  background: rgb(255, 237, 207);
+  border-radius: 50%;
+  transform: rotate(-20.00deg);
+  transition: all 0.3s;
+}
+
+/* Анимация при hover */
+
+.main:hover .center {
+  transform: scale(1.05) rotate(-10.00deg);
+}
+
+.main:hover .left {
+  transform: scale(1.05) rotate(10.00deg);
+}
+
+.main:hover .right div {
+  transform: scale(1.05) rotate(-20.00deg);
+}
+
+.main:hover .right .right1 {
+  transform: rotate(0) scale(1.05);
+}
+
+/* Анимация при hover */

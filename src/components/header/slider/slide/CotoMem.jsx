@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './CotoMem.module.css'
+import '../../../../index.css'
 
 const CotoMem = () => {
   return (
@@ -17,6 +18,13 @@ const CotoMem = () => {
           <span className={s.leftBottom}>
             1 млн <span>₽</span>
           </span>
+        </div>
+        <div className={s.right}>
+          <div className={s.right1}></div>
+          <div className={s.right2}></div>
+          <div className={s.right3}>
+            До <br /> 5 декабря
+          </div>
         </div>
       </div>
     </div>
