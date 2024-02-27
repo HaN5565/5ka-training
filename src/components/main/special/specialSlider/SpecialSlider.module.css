@@ -1,0 +1,51 @@
+.SpecialItem {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 5px 30px 0px rgba(95, 95, 95, 0.1);
+}
+
+.imgBlock {
+  width: 100%;
+  height: 210px;
+  background-image: url(../../../../../public/img/specialBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contentBlock {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  background-color: white;
+  padding: 20px 0px 25px 25px;
+}
+
+.title {
+  color: rgb(48, 46, 51);
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 125%;
+}
+
+.subtitle {
+  color: rgb(155, 154, 157);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.SpecialSlider {
+  position: relative;
+}
+
+.SpecialNavigation {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
