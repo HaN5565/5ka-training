@@ -1,0 +1,26 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleLeft {
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 42px;
+}
+
+.titleRight {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: black;
+  transition: all 0.3s;
+}
+
+.titleRight:hover {
+  opacity: 0.5;
+}

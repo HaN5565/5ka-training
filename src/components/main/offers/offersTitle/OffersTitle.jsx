@@ -2,14 +2,14 @@ import React from 'react';
 import '../../../../index.css'
 import Title2 from '../../../../UI/components/title2/Title2';
 
-const StocksTitle = () => {
+const OffersTitle = () => {
   return (
     <Title2 
-      rightText='Лучшее по акции'
+      leftText='Предложения от партнеров'
       hash='#'
-      leftText='Больше скидок'
+      rightText='Ко всем'
     />
   );
 };
 
-export default StocksTitle;
+export default OffersTitle;

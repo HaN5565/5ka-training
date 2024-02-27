@@ -3,6 +3,8 @@ import '../../index.css'
 import Stocks from './stocks/Stocks';
 import Compilations from './compilations/Compilations';
 import Special from './special/Special';
+import Leaders from './leaders/Leaders';
+import Offers from './offers/Offers';
 
 const Main = () => {
   return (
@@ -10,6 +12,8 @@ const Main = () => {
       <Stocks />
       <Compilations />
       <Special />
+      <Leaders />
+      <Offers />
     </main>
   );
 };

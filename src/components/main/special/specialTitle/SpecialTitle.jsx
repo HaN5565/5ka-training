@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../../../index.css'
-import s from '../Special.module.css'
+import Title from '../../../../UI/components/title/Title';
 
 const SpecialTitle = () => {
   return (
-    <div className={s.SpecialTitle}>
-      <h1 className={s.title}>Специальные предложения и акции</h1>
-    </div>
+    <>
+      <Title text='Специальные предложения' />
+    </>
   );
 };
 

@@ -1,0 +1,40 @@
+.offer-button-prev {
+  z-index: 1;
+  position: absolute;
+  bottom: 45%;
+  left: -25px;
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: rotate(180deg);
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.offer-button-next {
+  z-index: 1;
+  position: absolute;
+  bottom: 45%;
+  right: -25px;
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.swiper-button-disabled {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
