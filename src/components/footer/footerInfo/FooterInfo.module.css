@@ -1,0 +1,9 @@
+.FooterInfo {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.off {
+  display: none;
+}
