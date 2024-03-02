@@ -1,0 +1,58 @@
+.FooterRight {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.numberBlock {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.numberBlock span {
+  display: block;
+}
+
+.number {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.line {
+  color: rgb(193, 193, 193);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.politicsBlock {
+  display: flex;
+  gap: 30px;
+}
+
+.politics {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.politics:hover {
+  opacity: 0.5;
+}
+
+.design {
+  color: rgb(193, 193, 193);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.design span {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}

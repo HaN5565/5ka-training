@@ -48,6 +48,7 @@
 }
 
 .moreActive {
+  z-index: 9;
   max-width: 250px;
   width: 100%;
   display: flex;

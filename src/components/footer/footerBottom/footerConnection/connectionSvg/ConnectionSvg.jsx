@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../../index.css'
+import '../../../../../index.css'
 import s from './ConnectionSvg.module.css'
 
 const ConnectionSvg = () => {
