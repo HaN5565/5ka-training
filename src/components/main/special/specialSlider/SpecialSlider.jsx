@@ -13,11 +13,12 @@ const SpecialSlider = () => {
       <Swiper
         modules={[Navigation]}
         slidesPerView={3}
-        spaceBetween={30}
+        spaceBetween={20}
         navigation={{
           prevEl: '.special-button-prev',
           nextEl: '.special-button-next'
         }}
+        className={s.swiper}
       >
         <SwiperSlide><SpecialItem /></SwiperSlide>
         <SwiperSlide><SpecialItem /></SwiperSlide>

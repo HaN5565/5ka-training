@@ -1,10 +1,22 @@
-.SpecialItem {
-  max-width: 300px;
-  width: 100%;
-  box-shadow: 0px 5px 30px 0px rgba(95, 95, 95, 0.1);
+.SpecialSlider {
+  position: relative;
+  height: 360px;
+}
 
-  overflow: hidden;
+.swiper {
+  height: 353px;
+  border-radius: 20px;
+}
+
+.SpecialItem {
+  box-shadow: 0px 5px 10px 0px rgba(95, 95, 95, 0.1);
   border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.SpecialItem:hover {
+  transform: scale(1.02);
 }
 
 .imgBlock {
@@ -14,6 +26,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .contentBlock {
@@ -22,6 +36,8 @@
   row-gap: 30px;
   background-color: white;
   padding: 20px 0px 25px 25px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .title {
@@ -36,18 +52,4 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 130%;
-}
-
-.SpecialSlider {
-  position: relative;
-}
-
-.SpecialNavigation {
-  width: 100%;
-  z-index: 1;
-  position: absolute;
-  bottom: 55%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }

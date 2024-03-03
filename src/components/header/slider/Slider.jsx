@@ -10,30 +10,32 @@ import CotoMem from './slide/CotoMem';
 
 const Slider = () => {
   return (
-    <Swiper
-      modules={[Navigation, Autoplay,]}
-      navigation={{
-        prevEl: '.swiper-button-prev',
-        nextEl: '.swiper-button-next'
-      }}
-      autoplay={{
-        delay: 5000,
-        pauseOnMouseEnter: true,
-        disableOnInteraction: false,
-      }}
-      loop={true}
-      centeredSlides={true}
-      slidesPerView={'auto'}
-      className='swiper-container'
-    >
-      <SwiperSlide><CotoMem /></SwiperSlide>
-      <SwiperSlide><CotoMem /></SwiperSlide>
-      <SwiperSlide><CotoMem /></SwiperSlide>
-      <SwiperSlide><CotoMem /></SwiperSlide>
-      <SwiperSlide><CotoMem /></SwiperSlide>
-      <SwiperSlide><CotoMem /></SwiperSlide>
+    <div className='swiper-container'>
+      <Swiper
+        modules={[Navigation, Autoplay,]}
+        navigation={{
+          prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-next'
+        }}
+        autoplay={{
+          delay: 5000,
+          pauseOnMouseEnter: true,
+          disableOnInteraction: false,
+        }}
+        loop={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        className='swiper'
+      >
+        <SwiperSlide><CotoMem /></SwiperSlide>
+        <SwiperSlide><CotoMem /></SwiperSlide>
+        <SwiperSlide><CotoMem /></SwiperSlide>
+        <SwiperSlide><CotoMem /></SwiperSlide>
+        <SwiperSlide><CotoMem /></SwiperSlide>
+        <SwiperSlide><CotoMem /></SwiperSlide>
+      </Swiper>
       <SliderNavigation />
-    </Swiper>
+    </div>
   );
 };
 

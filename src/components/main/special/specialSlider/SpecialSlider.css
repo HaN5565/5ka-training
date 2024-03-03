@@ -1,7 +1,10 @@
 .special-button-prev {
+  z-index: 2;
+  position: absolute;
   width: 55px;
   height: 55px;
   margin-left: -25px;
+  bottom: 30%;
 
   display: flex;
   justify-content: center;
@@ -14,9 +17,13 @@
 }
 
 .special-button-next {
+  z-index: 2;
+  position: absolute;
   width: 55px;
   height: 55px;
   margin-right: -25px;
+  bottom: 30%;
+  right: 0;
 
   display: flex;
   justify-content: center;

@@ -4,19 +4,10 @@
   margin-left: 90px;
 }
 
-.item {
-  gap: 10px;
-}
-
-.img {
-  width: 20px;
-  height: 20px;
-}
-
 .item a {
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 10px;
   color: rgb(48, 46, 51);
   font-size: 16px;
   font-weight: 600;
@@ -29,11 +20,17 @@
   opacity: 0.3;
 }
 
+.img {
+  width: px;
+  height: 25px;
+}
+
+
 /* Выпдающие меню */
 
 .itemActive a {
   display: flex;
-  gap:7px;
+  gap: 7px;
   color: rgb(240, 23, 23);
   font-size: 16px;
   font-weight: 600;
