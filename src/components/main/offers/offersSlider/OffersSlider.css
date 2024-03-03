@@ -1,3 +1,8 @@
+.offers-slider {
+  height: 250px;
+  border-radius: 20px;
+}
+
 .offer-button-prev {
   z-index: 1;
   position: absolute;

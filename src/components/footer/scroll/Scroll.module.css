@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-position: 0px;
   overflow: hidden;
-} 
+}
 
 .circle {
   position: absolute;
@@ -27,13 +27,18 @@
 }
 
 .text {
+  height: 100%;
+  width: 35%;
   color: white;
-  position: absolute;
-  top: 30%;
-  left: 5%;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   row-gap: 16px;
+}
+
+.text span {
+  display: block;
+  margin-left: 30px;
 }
 
 .title {

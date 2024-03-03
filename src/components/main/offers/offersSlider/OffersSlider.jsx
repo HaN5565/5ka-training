@@ -6,6 +6,8 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules';
 import OffersItem from './OffersItem';
 import OfferNavigation from './OfferNavigation';
+import OffersItem2 from './OffersItem2';
+import OffersItem3 from './OffersItem3';
 
 const OffersSlider = () => {
   return (
@@ -18,12 +20,14 @@ const OffersSlider = () => {
           prevEl: '.offer-button-prev',
           nextEl: '.offer-button-next'
         }}
+        className='offers-slider'
       >
         <SwiperSlide><OffersItem /></SwiperSlide>
+        <SwiperSlide><OffersItem2 /></SwiperSlide>
+        <SwiperSlide><OffersItem3 /></SwiperSlide>
         <SwiperSlide><OffersItem /></SwiperSlide>
-        <SwiperSlide><OffersItem /></SwiperSlide>
-        <SwiperSlide><OffersItem /></SwiperSlide>
-        <SwiperSlide><OffersItem /></SwiperSlide>
+        <SwiperSlide><OffersItem2 /></SwiperSlide>
+        <SwiperSlide><OffersItem3 /></SwiperSlide>
       </Swiper>
       <OfferNavigation />
     </div>
