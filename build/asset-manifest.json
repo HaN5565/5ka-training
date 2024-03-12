@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./static/css/main.70784a02.css",
+    "main.js": "./static/js/main.a0d39ccb.js",
+    "static/media/shop.png": "./static/media/shop.31564639f1a7d6c1c138.png",
+    "static/media/cotoMem.png": "./static/media/cotoMem.f2e48eb6b769604dda5e.png",
+    "static/media/5ka.png": "./static/media/5ka.3ef2d822641a2c7e755c.png",
+    "static/media/activia.png": "./static/media/activia.5e388591931e052405d6.png",
+    "static/media/starwberry.png": "./static/media/starwberry.7b7880d30f81a5df19ba.png",
+    "index.html": "./index.html",
+    "main.70784a02.css.map": "./static/css/main.70784a02.css.map",
+    "main.a0d39ccb.js.map": "./static/js/main.a0d39ccb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70784a02.css",
+    "static/js/main.a0d39ccb.js"
+  ]
+}
